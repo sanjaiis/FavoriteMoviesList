@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Inception",
+    "description": "A mind-bending sci-fi thriller.",
+    "rating": 9
+  },
+  {
+    "title": "Interstellar",
+    "description": "Exploration through space and time.",
+    "rating": 10
+  },
+  {
+    "title": "The Dark Knight",
+    "description": "Batman faces the Joker.",
+    "rating": 9
+  },
+  {
+    "title": "Avengers: Endgame",
+    "description": "Heroes unite to defeat Thanos.",
+    "rating": 9
+  },
+  {
+    "title": "Toy Story",
+    "description": "Toys come to life in an adventure.",
+    "rating": 8
+  }
+]
