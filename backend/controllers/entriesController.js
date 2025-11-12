@@ -81,8 +81,10 @@ exports.deleteEntry = async (req, res, next) => {
  *  }
  */
 exports.listEntries = async (req, res, next) => {
+  console.log('Listing entries with query:', req.query);
   try {
     const limit = Math.min(parseInt(req.query.limit, 10) || 20, 100);
+    console.log('Using limit:', limit);
     const sortDir = req.query.sort === 'asc' ? 1 : -1; // default desc
     const lastId = req.query.lastId;
     const search = req.query.search ? String(req.query.search).trim() : null;
